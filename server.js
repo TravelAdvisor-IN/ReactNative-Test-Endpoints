@@ -1,27 +1,29 @@
 const http = require('http');
 const fs = require('fs');
+const path = require('path');
+
+const port = 3000;
+const filePath = path.join(__dirname, 'homepage.json');
 
 const server = http.createServer((req, res) => {
-  if (req.method === 'GET' && req.url === '/homepage') {
-    // Read the JSON data from the local file
-    fs.readFile('./homepage.json', 'utf8', (err, data) => {
+  if (req.url === '/' && req.method === 'GET') {
+    fs.readFile(filePath, 'utf8', (err, data) => {
       if (err) {
-        res.writeHead(500, { 'Content-Type': 'application/json' });
-        res.end(JSON.stringify({ error: 'Internal Server Error' }));
+        console.error(err);
+        res.writeHead(500, {'Content-Type': 'text/plain'});
+        res.end('Internal Server Error');
         return;
       }
-      // Respond with the JSON data
-      res.writeHead(200, { 'Content-Type': 'application/json' });
+
+      res.writeHead(200, {'Content-Type': 'application/json'});
       res.end(data);
     });
   } else {
-    // Respond with a 404 error for all other requests
-    res.writeHead(404, { 'Content-Type': 'text/plain' });
-    res.end('404 Not Found\n');
+    res.writeHead(404, {'Content-Type': 'text/plain'});
+    res.end('Not Found');
   }
 });
 
-const port = 3000;
 server.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
+  console.log(`Server running at http://localhost:${port}`);
 });
