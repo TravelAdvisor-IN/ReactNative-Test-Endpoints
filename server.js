@@ -25,5 +25,6 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(port, () => {
-  console.log(`Server running at http://localhost:${port}`);
+  const address = server.address();
+  console.log(`Server running at http://${address.address}:${address.port}`);
 });
