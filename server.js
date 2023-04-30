@@ -6,7 +6,7 @@ const port = 3000;
 const filePath = path.join(__dirname, 'homepage.json');
 
 const server = http.createServer((req, res) => {
-  if (req.url === '/' && req.method === 'GET') {
+  if (req.url === '/homepage' && req.method === 'GET') {
     fs.readFile(filePath, 'utf8', (err, data) => {
       if (err) {
         console.error(err);
