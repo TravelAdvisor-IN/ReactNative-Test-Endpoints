@@ -1,5 +1,4 @@
- {
-  "status": "200",
+{
   "user": {
     "loggedIn": "true",
     "username": "chethan",
@@ -8,68 +7,101 @@
     "log_cordi": "25.3",
     "lat_cord": "36.5"
   },
-  "promotions": [
-    {
-      "promotionID": "promo452",
-      "promotionIMG": "promoImg",
-      "promoDestURL": "https://promoDestiURL.com"
-    },
-    {
-      "promotionID": "promo452",
-      "promotionIMG": "promoImg",
-      "promoDestURL": "https://promoDestiURL.com"
-    },
-    {
-      "promotionID": "promo452",
-      "promotionIMG": "promoImg",
-      "promoDestURL": "https://promoDestiURL.com"
-    },
-    {
-      "promotionID": "promo452",
-      "promotionIMG": "promoImg",
-      "promoDestURL": "https://promoDestiURL.com"
-    }
-  ],
-  "topPlaces": {
-    "placesNearby": [
+  "promotionsMetaData": {
+    "noOfPromotions": "2",
+    "promotions": [
       {
-        "placeID": "001",
-        "placename": "Taj Mahal",
-        "placeImg": "https://image.com/img.jpg",
-        "noOfReview": "120"
+        "promotionID": "promo452",
+        "promotionIMG": "promoImg",
+        "promoDestURL": "https://promoDestiURL.com"
       },
       {
-        "placeID": "002",
-        "placename": "Qutub Minar",
-        "placeImg": "https://image.com/img.jpg",
-        "noOfReview": "100"
+        "promotionID": "promo452",
+        "promotionIMG": "promoImg",
+        "promoDestURL": "https://promoDestiURL.com"
       },
       {
-        "placeID": "003",
-        "placename": "Next Place",
-        "placeImg": "https://image.com/img.jpg",
-        "noOfReview": "100"
-      }
-    ],
-    "resturantsNearby": [
-      {
-        "placeID": "001",
-        "placename": "Taj Mahal",
-        "placeImg": "https://image.com/img.jpg",
-        "noOfReview": "120"
+        "promotionID": "promo452",
+        "promotionIMG": "promoImg",
+        "promoDestURL": "https://promoDestiURL.com"
       },
       {
-        "placeID": "002",
-        "placename": "Qutub Minar",
-        "placeImg": "https://image.com/img.jpg",
-        "noOfReview": "100"
-      },
-      {
-        "placeID": "003",
-        "placename": "Next Place",
-        "placeImg": "https://image.com/img.jpg",
-        "noOfReview": "100"
+        "promotionID": "promo452",
+        "promotionIMG": "promoImg",
+        "promoDestURL": "https://promoDestiURL.com"
       }
     ]
+  },
+  "categoriesMetaData": {
+    "placesNearby": {
+      "title": "Places Near you",
+      "topPlaces": [
+        {
+          "placeID": "001",
+          "placename": "Taj Mahal",
+          "placeImg": "https://image.com/img.jpg",
+          "noOfReview": "120"
+        },
+        {
+          "placeID": "001",
+          "placename": "Taj Mahal",
+          "placeImg": "https://image.com/img.jpg",
+          "noOfReview": "120"
+        },
+        {
+          "placeID": "001",
+          "placename": "Taj Mahal",
+          "placeImg": "https://image.com/img.jpg",
+          "noOfReview": "120"
+        },
+        {
+          "placeID": "001",
+          "placename": "Taj Mahal",
+          "placeImg": "https://image.com/img.jpg",
+          "noOfReview": "120"
+        },
+        {
+          "placeID": "001",
+          "placename": "Taj Mahal",
+          "placeImg": "https://image.com/img.jpg",
+          "noOfReview": "120"
+        }
+      ]
+    },
+    "resturantsNearby": {
+      "title": "Resturants Nearby",
+      "topPlaces": [
+        {
+          "placeID": "001",
+          "placename": "Taj Mahal",
+          "placeImg": "https://image.com/img.jpg",
+          "noOfReview": "120"
+        },
+        {
+          "placeID": "001",
+          "placename": "Taj Mahal",
+          "placeImg": "https://image.com/img.jpg",
+          "noOfReview": "120"
+        },
+        {
+          "placeID": "001",
+          "placename": "Taj Mahal",
+          "placeImg": "https://image.com/img.jpg",
+          "noOfReview": "120"
+        },
+        {
+          "placeID": "001",
+          "placename": "Taj Mahal",
+          "placeImg": "https://image.com/img.jpg",
+          "noOfReview": "120"
+        },
+        {
+          "placeID": "001",
+          "placename": "Taj Mahal",
+          "placeImg": "https://image.com/img.jpg",
+          "noOfReview": "120"
+        }
+      ]
+    }
   }
 }
