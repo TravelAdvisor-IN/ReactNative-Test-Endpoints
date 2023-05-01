@@ -1,7 +1,7 @@
 {
   "user": {
     "loggedIn": "true",
-    "username": "Hey, Chethan",
+    "username": "chethan",
     "premiumUser": "false",
     "cureentLocation": "Chikkamagaluru",
     "log_cordi": "25.3",
@@ -32,76 +32,117 @@
       }
     ]
   },
-  "categoriesMetaData": {
-    "placesNearby": {
-      "title": "Places Near you",
-      "topPlaces": [
-        {
-          "placeID": "001",
-          "placename": "Taj Mahal",
-          "placeImg": "https://image.com/img.jpg",
-          "noOfReview": "120"
-        },
-        {
-          "placeID": "001",
-          "placename": "Taj Mahal",
-          "placeImg": "https://image.com/img.jpg",
-          "noOfReview": "120"
-        },
-        {
-          "placeID": "001",
-          "placename": "Taj Mahal",
-          "placeImg": "https://image.com/img.jpg",
-          "noOfReview": "120"
-        },
-        {
-          "placeID": "001",
-          "placename": "Taj Mahal",
-          "placeImg": "https://image.com/img.jpg",
-          "noOfReview": "120"
-        },
-        {
-          "placeID": "001",
-          "placename": "Taj Mahal",
-          "placeImg": "https://image.com/img.jpg",
-          "noOfReview": "120"
-        }
-      ]
+  "categoriesMetaData": [
+    {
+      "placesNearby": {
+        "title": "Places Near you",
+        "topPlaces": [
+          {
+            "placeID": "001",
+            "placename": "Taj Mahal",
+            "placeImg": "https://image.com/img.jpg",
+            "noOfReview": "120"
+          },
+          {
+            "placeID": "001",
+            "placename": "Taj Mahal",
+            "placeImg": "https://image.com/img.jpg",
+            "noOfReview": "120"
+          },
+          {
+            "placeID": "001",
+            "placename": "Taj Mahal",
+            "placeImg": "https://image.com/img.jpg",
+            "noOfReview": "120"
+          },
+          {
+            "placeID": "001",
+            "placename": "Taj Mahal",
+            "placeImg": "https://image.com/img.jpg",
+            "noOfReview": "120"
+          },
+          {
+            "placeID": "001",
+            "placename": "Taj Mahal",
+            "placeImg": "https://image.com/img.jpg",
+            "noOfReview": "120"
+          }
+        ]
+      }
     },
-    "resturantsNearby": {
-      "title": "Resturants Nearby",
-      "topPlaces": [
-        {
-          "placeID": "001",
-          "placename": "Taj Mahal",
-          "placeImg": "https://image.com/img.jpg",
-          "noOfReview": "120"
-        },
-        {
-          "placeID": "001",
-          "placename": "Taj Mahal",
-          "placeImg": "https://image.com/img.jpg",
-          "noOfReview": "120"
-        },
-        {
-          "placeID": "001",
-          "placename": "Taj Mahal",
-          "placeImg": "https://image.com/img.jpg",
-          "noOfReview": "120"
-        },
-        {
-          "placeID": "001",
-          "placename": "Taj Mahal",
-          "placeImg": "https://image.com/img.jpg",
-          "noOfReview": "120"
-        },
-        {
-          "placeID": "001",
-          "placename": "Taj Mahal",
-          "placeImg": "https://image.com/img.jpg",
-          "noOfReview": "120"
-        }
-      ]
+    {
+      "placesNearby": {
+        "title": "Resturants Near you",
+        "topPlaces": [
+          {
+            "placeID": "001",
+            "placename": "Taj Mahal",
+            "placeImg": "https://image.com/img.jpg",
+            "noOfReview": "120"
+          },
+          {
+            "placeID": "001",
+            "placename": "Taj Mahal",
+            "placeImg": "https://image.com/img.jpg",
+            "noOfReview": "120"
+          },
+          {
+            "placeID": "001",
+            "placename": "Taj Mahal",
+            "placeImg": "https://image.com/img.jpg",
+            "noOfReview": "120"
+          },
+          {
+            "placeID": "001",
+            "placename": "Taj Mahal",
+            "placeImg": "https://image.com/img.jpg",
+            "noOfReview": "120"
+          },
+          {
+            "placeID": "001",
+            "placename": "Taj Mahal",
+            "placeImg": "https://image.com/img.jpg",
+            "noOfReview": "120"
+          }
+        ]
+      }
+    },
+    {
+      "placesNearby": {
+        "title": "Resorts Nearby",
+        "topPlaces": [
+          {
+            "placeID": "001",
+            "placename": "Taj Mahal",
+            "placeImg": "https://image.com/img.jpg",
+            "noOfReview": "120"
+          },
+          {
+            "placeID": "001",
+            "placename": "Taj Mahal",
+            "placeImg": "https://image.com/img.jpg",
+            "noOfReview": "120"
+          },
+          {
+            "placeID": "001",
+            "placename": "Taj Mahal",
+            "placeImg": "https://image.com/img.jpg",
+            "noOfReview": "120"
+          },
+          {
+            "placeID": "001",
+            "placename": "Taj Mahal",
+            "placeImg": "https://image.com/img.jpg",
+            "noOfReview": "120"
+          },
+          {
+            "placeID": "001",
+            "placename": "Taj Mahal",
+            "placeImg": "https://image.com/img.jpg",
+            "noOfReview": "120"
+          }
+        ]
+      }
     }
-  }
+  ]
 }
