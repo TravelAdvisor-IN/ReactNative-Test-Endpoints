@@ -1,9 +1,9 @@
 {
   "user": {
     "loggedIn": "true",
-    "username": "chethan",
+    "username": "Hey, Chethan",
     "premiumUser": "false",
-    "cureentLocation": "Chikkamagaluru",
+    "cureentLocation": "New Delhi",
     "log_cordi": "25.3",
     "lat_cord": "36.5"
   },
@@ -39,33 +39,33 @@
         "topPlaces": [
           {
             "placeID": "001",
-            "placename": "Taj Mahal",
-            "placeImg": "https://image.com/img.jpg",
-            "noOfReview": "120"
+            "placename": "India Gate",
+            "placeImg": "https://www.holidify.com/images/cmsuploads/compressed/5621259188_e74d63cb05_b_20180302140149.jpg",
+            "noOfReview": "230 Reviews"
           },
           {
-            "placeID": "001",
-            "placename": "Taj Mahal",
-            "placeImg": "https://image.com/img.jpg",
-            "noOfReview": "120"
+            "placeID": "002",
+            "placename": "Bahai (Lotus) Temple",
+            "placeImg": "https://cdn.britannica.com/67/156667-050-62285333/Lotus-Temple-New-Delhi-India.jpg",
+            "noOfReview": "130 Reviews"
           },
           {
-            "placeID": "001",
-            "placename": "Taj Mahal",
-            "placeImg": "https://image.com/img.jpg",
-            "noOfReview": "120"
+            "placeID": "003",
+            "placename": "Qutab Minar",
+            "placeImg": "https://www.holidify.com/images/cmsuploads/compressed/Qutub_Minar_in_the_monsoons_20170908115259.jpg",
+            "noOfReview": "40 Reviews"
           },
           {
-            "placeID": "001",
-            "placename": "Taj Mahal",
-            "placeImg": "https://image.com/img.jpg",
-            "noOfReview": "120"
+            "placeID": "004",
+            "placename": "Hauz Khas",
+            "placeImg": "https://yometro.com/images/places/Hauz-Khas.jpg",
+            "noOfReview": "38 Reviews"
           },
           {
-            "placeID": "001",
-            "placename": "Taj Mahal",
-            "placeImg": "https://image.com/img.jpg",
-            "noOfReview": "120"
+            "placeID": "005",
+            "placename": "Chandni Chowk",
+            "placeImg": "https://i.ytimg.com/vi/iC5H4HxafoM/maxresdefault.jpg",
+            "noOfReview": "71 Reviews"
           }
         ]
       }
